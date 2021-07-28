@@ -5,7 +5,7 @@ Raven.config(config.keys.sentry).install();
 
 function startBot() {
     new PenguClient({
-        prefix: ["p!", "P!"],
+        prefix: ["R!", "R!"],
         commandEditing: true,
         disableEveryone: true,
         regexPrefix: new RegExp(/^((?:Hey |Ok )?Pengu(?:,|!| ))/i),
